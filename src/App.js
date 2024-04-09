@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from './Home';
 import Blog from './Blog';
-import NewPost from './NewPost';
+import NewPost from './components/NewPost';
 
 //Contains the Routes for the listed components
 function App() {
